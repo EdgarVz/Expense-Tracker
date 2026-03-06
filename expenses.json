@@ -1,0 +1,16 @@
+[
+  {
+    "id": 3,
+    "description": "agua",
+    "amount": 3,
+    "date": "2026-03-06",
+    "category": "General"
+  },
+  {
+    "id": 4,
+    "description": "gicarros",
+    "amount": 12,
+    "date": "2026-03-06",
+    "category": "General"
+  }
+]
