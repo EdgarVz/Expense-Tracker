@@ -11,34 +11,34 @@
 
 ## 📦 Installation / Instalación
 
-  # Clone the repository / Clonar el repositorio
+  ### Clone the repository / Clonar el repositorio
   git clone https://github.com/EdgarVz/expense-tracker
   cd expense-tracker
 
-  # Install globally (recommended) / Instalar globalmente (recomendado)
+  ### Install globally (recommended) / Instalar globalmente (recomendado)
   npm install -g .
 
-  # Now you can use 'expense-tracker' from anywhere
-  # Ahora puedes usar 'expense-tracker' desde cualquier lugar
+  ### Now you can use 'expense-tracker' from anywhere
+  ### Ahora puedes usar 'expense-tracker' desde cualquier lugar
 
 ## 🚀 Quick Start / Inicio Rápido
 
-  # Add an expense / Agregar un gasto
+  ### Add an expense / Agregar un gasto
   expense-tracker add --description "Lunch" --amount 15 --category food
 
-  # List all expenses / Listar todos los gastos
+  ### List all expenses / Listar todos los gastos
   expense-tracker list
 
-  # Get total summary / Obtener resumen total
+  ### Get total summary / Obtener resumen total
   expense-tracker summary
 
-  # Get summary for a specific month / Obtener resumen de un mes específico
+  ### Get summary for a specific month / Obtener resumen de un mes específico
   expense-tracker summary --month 8
 
-  # Update an expense / Actualizar un gasto
+  ### Update an expense / Actualizar un gasto
   expense-tracker update --id 1 --description "Dinner" --amount 25
 
-  # Delete an expense / Eliminar un gasto
+  ### Delete an expense / Eliminar un gasto
   expense-tracker delete --id 1
 
 ## 📋 Commands / Comandos
@@ -63,8 +63,9 @@
 
 ## 💡 Examples / Ejemplos
 
-  #English
-  # Add expenses
+  ### English
+
+  #### Add expenses
   $ expense-tracker add --description "Lunch" --amount 15 --category food
   ✅ Expense added successfully with ID: 1
 
@@ -74,7 +75,7 @@
   $ expense-tracker add --description "Groceries" --amount 50 --category "supermarket"
   ✅ Expense added successfully with ID: 3
 
-  # List all expenses
+  #### List all expenses
   $ expense-tracker list
 
   ===ALL EXPENSES===
@@ -85,24 +86,25 @@
 
   📊 Total: 3 expenses | Sum: $90.00
 
-  # Get total summary
+  #### Get total summary
   $ expense-tracker summary
   Total expenses: $90.00
 
-  # Get summary for August
+  #### Get summary for August
   $ expense-tracker summary --month 8
   Total expenses for month August 2024: $45.00
 
-  # Update an expense
+  #### Update an expense
   $ expense-tracker update --id 2 --description "Taxi" --amount 30
   ✅ Expense ID 2 updated successfully
 
-  # Delete an expense
+  #### Delete an expense
   $ expense-tracker delete --id 3
   ✅ Expense with ID: 3 deleted successfully
 
-  #Español
-  # Agregar gastos
+  ### Español
+
+  #### Agregar gastos
   $ expense-tracker add --description "Almuerzo" --amount 15 --category comida
   ✅ Gasto agregado exitosamente con ID: 1
 
@@ -112,7 +114,7 @@
   $ expense-tracker add --description "Supermercado" --amount 50 --category "compras"
   ✅ Gasto agregado exitosamente con ID: 3
 
-  # Listar todos los gastos
+  #### Listar todos los gastos
   $ expense-tracker list
 
   ===TODOS LOS GASTOS===
@@ -123,19 +125,19 @@
 
   📊 Total: 3 gastos | Suma: $90.00
 
-  # Obtener resumen total
+  #### Obtener resumen total
   $ expense-tracker summary
   Total de gastos: $90.00
 
-  # Obtener resumen de agosto
+  #### Obtener resumen de agosto
   $ expense-tracker summary --month 8
   Total de gastos para Agosto 2024: $45.00
 
-  # Actualizar un gasto
+  #### Actualizar un gasto
   $ expense-tracker update --id 2 --description "Taxi" --amount 30
   ✅ Gasto ID 2 actualizado exitosamente
 
-  # Eliminar un gasto
+  #### Eliminar un gasto
   $ expense-tracker delete --id 3
   ✅ Gasto con ID: 3 eliminado exitosamente
 
