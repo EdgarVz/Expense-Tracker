@@ -8,18 +8,18 @@
   **Author / Autor:** [EdgarVz]
 
 ---
-
+---
 ## 📦 Installation / Instalación
 
-  #Clone the repository / Clonar el repositorio
-  git clone https://github.com/EdgarVz/expense-tracker
-  cd expense-tracker
+    # Clone the repository / Clonar el repositorio
+    git clone https://github.com/EdgarVz/expense-tracker
+    cd expense-tracker
 
-  #nstall globally (recommended) / Instalar globalmente (recomendado)
-  npm install -g .
+    # Install globally (recommended) / Instalar globalmente (recomendado)
+    npm install -g .
 
-  #Now you can use 'expense-tracker' from anywhere
-  #Ahora puedes usar 'expense-tracker' desde cualquier lugar
+    #Now you can use 'expense-tracker' from anywhere
+    #Ahora puedes usar 'expense-tracker' desde cualquier lugar
 
 ## 🚀 Quick Start / Inicio Rápido
 
